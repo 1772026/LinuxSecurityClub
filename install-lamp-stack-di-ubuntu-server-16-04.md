@@ -117,34 +117,34 @@ mysql > exit
 ```bash
 $ sudo apt-get install php libapache2-mod-php
 ```
-### Testing Installed PHP 7.0
-**Check PHP Version :**
+## Testing Installed PHP 7.0
+### **Check PHP Version :**
 ```bash
 $ php -v
 ```
-### Fixing Error
-jika muncul error seperti dibawah ini setelah mencoba check versi dari PHP
-```
-Cannot adopt OID in UCD-SNMP-MIB: ssIOReceive ::= { systemStats 6 }
-Cannot adopt OID in UCD-SNMP-MIB: ssIOSent ::= { systemStats 5 }
-Cannot adopt OID in UCD-SNMP-MIB: ssSwapOut ::= { systemStats 4 }
-Cannot adopt OID in UCD-SNMP-MIB: ssSwapIn ::= { systemStats 3 }
-Cannot adopt OID in UCD-SNMP-MIB: ssErrorName ::= { systemStats 2 }
-Cannot adopt OID in UCD-SNMP-MIB: ssIndex ::= { systemStats 1 }
-Cannot adopt OID in NET-SNMP-EXTEND-MIB: nsExtendOutput2Entry ::= { nsExtendOutput2Table 1 }
-Cannot adopt OID in UCD-SNMP-MIB: laEntry ::= { laTable 1 }
-```
-tinggal jalankan command dibawah ini:
-```bash
-$ sudo apt-get remove php7.0-snmp
-```
-dan jika sudah di __remove__, ketika kita menge-check versi PHP lagi, maka akan muncul seperti ini.
 ![Versi PHP](img/versiphp.png)
 
+### phpinfo()
+**phpinfo()** adalah function bawaan yang digunakan untuk menge-check versi dan system yang ada di PHP, dengan ini juga kita bisa mengetes apakah PHP yang terinstall berjalan dengan baik atau tidak.
 Letak folder untuk menyimpan file untuk menghosting website PHP ada disini:
 ```bash
 /var/www/html/
 ```
+Membuat dan mengedit file info di direktori web server :
+```bash
+$ nano /var/www/html/info.php
+```
+masukkan script berikut ->
+```php
+<?php
+phpinfo();
+?>
+```
+tekan **ctrl + x**, ketikkan **y** dan **enter** untuk keluar dari text editor nano.
+dan akses http://Nomor_IP_Server_Anda/info.php 
+jika muncul tampilan seperti foto dibawah ini, maka LAMP Stack anda telah berhasil di install.
+![phpinfo](img/phpinfo.png)
+
 ## SELESAI
 
 
