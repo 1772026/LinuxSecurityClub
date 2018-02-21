@@ -57,7 +57,7 @@ Dan silakan memasukkan password lagi untuk memastikan password anda.
 
 ##### Weak Password
 karena password yang saya masukkan kurang kuat,maka akan ditanyakan apakah mau menggunakan password tersebut, klik __YES__ jika untuk menggunakan password lemah yang kita ketikkan tadi, klik __NO__ untuk mengganti password yang lebih kuat.
-![Weak PAssword](img/weakpassword.png)
+![Weak PAssword](https://www.techonthenet.com/linux/sysadmin/ubuntu/images/install_ubuntu_16_04_013.png)
 
 ### 9. Enkripsi Direktori Home
 Enkripsi direktori Home agar menjaga keamanan partisi/direktori Home menggunakan password lagi untuk masuk ke direktori tersebut.
