@@ -99,7 +99,7 @@ Silakan masukkan password untuk user **root** dan di tampilan selanjutnya akan d
 ![MySQL Password untuk Root User](img/mysqlpassword.png)
 
 masukkan ulang password
-![masukkan ulang password](mysqlpasswordrepeat.png)
+![masukkan ulang password](img/mysqlpasswordrepeat.png)
 
 ### Akses MySQL
 ```bash
