@@ -115,7 +115,7 @@ mysql > exit
 
 ## 3. Install PHP 7.0 & PHP 7.0 Modules
 ```bash
-$ sudo apt-get install php7.0 php7.0-*
+$ sudo apt-get install php libapache2-mod-php
 ```
 ### Testing Installed PHP 7.0
 **Check PHP Version :**
