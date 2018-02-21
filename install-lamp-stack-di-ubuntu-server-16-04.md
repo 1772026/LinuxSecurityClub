@@ -141,7 +141,10 @@ phpinfo();
 ?>
 ```
 tekan **ctrl + x**, ketikkan **y** dan **enter** untuk keluar dari text editor nano.
-dan akses http://Nomor_IP_Server_Anda/info.php 
+dan akses:
+```
+http://Nomor_IP_Server_Anda/info.php
+```
 jika muncul tampilan seperti foto dibawah ini, maka LAMP Stack anda telah berhasil di install.
 ![phpinfo](img/phpinfo.png)
 
