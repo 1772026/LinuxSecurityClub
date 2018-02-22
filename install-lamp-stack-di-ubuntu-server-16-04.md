@@ -150,7 +150,18 @@ jika muncul tampilan seperti foto dibawah ini, maka LAMP Stack anda telah berhas
 
 ## SELESAI
 
+# TAMBAHAN
 
+## Install PHPMyAdmin
+PHPMyAdmin adalah aplikasi open source yang digunakan untuk menangani aplikasi MySQL secara GUI di browser
+
+```bash
+$ sudo apt-get update
+$ sudo apt-get -y phpmyadmin
+$ echo "Include /etc/phpmyadmin/apache.conf" >> /etc/apache2/apache2.conf
+$ sudo service apache2 restart
+# Anda bisa mengakses PHPMyAdmin dengan link http://IP_Address_Anda/phpmyadmin/
+```
 
 
 
