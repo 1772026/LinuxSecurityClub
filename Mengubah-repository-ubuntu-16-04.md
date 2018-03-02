@@ -31,4 +31,5 @@ $ sudo apt-get upgrade
 
 ## TAMBAHAN
 **(Q) Apakah saya bisa menambahkan alamat repository Kali Linux dan meng-install aplikasi yang ada di repo Kali Linux ke Ubuntu saya?**
+
 (A) Bisa, tinggal mencari alamat repository Kali linux di internet, buka file __sources.list__ dan tambahkan alamat repo Kali Linux dibawah repository ubuntu yang sudah ada, karena jika repository utama (ubuntu) kita ditimpa / diganti menjadi repository Kali Linux,maka kita tidak bisa meng-update aplikasi yang hanya tersedia di repo Ubuntu dan update keamanan OS kita
