@@ -6,3 +6,4 @@ Kumpulan tutorial dan link berguna untuk komunitas "Linux Security Club" Fakulta
 - [Install Ubuntu Server 16.04 di Virtual Box](https://github.com/stefanushermawan07/LinuxSecurityClub/blob/master/install-ubuntu-server-16-04.md)
 - [Install LAMP Stack di Ubuntu Server 16.04](https://github.com/stefanushermawan07/LinuxSecurityClub/blob/master/install-lamp-stack-di-ubuntu-server-16-04.md)
 - [Mengubah Repository Ubuntu 16.04](Mengubah-repository-ubuntu-16-04.md)
+- [Install OpenSSH Server di Ubuntu](install-openssh-di-ubuntu.md)
