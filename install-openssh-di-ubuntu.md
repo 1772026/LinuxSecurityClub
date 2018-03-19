@@ -12,6 +12,15 @@ Buka file konfigurasi SSH untuk konfigurasi dasar,
 ```
 $ nano /etc/ssh/sshd_config 
 ```
+
+### SSH Login
+##### via Terminal
+```
+$ ssh user@hostname
+```
+##### Login SSH di Windows
+Anda bisa menggunakan Aplikasi PuTTY, [Download PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+
 #### [Penjelasan Opsi Konfigurasi File SSH](ftp://ftp.iitb.ac.in/LDP/en/solrhe/chap15sec122.html)
 
 #### [Login dengan SSH key](https://www.hostinger.co.id/tutorial/cara-menggunakan-ssh-ssh-keys/)
